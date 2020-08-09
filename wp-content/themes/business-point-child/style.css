@@ -1,0 +1,47 @@
+/*
+Theme Name: Business Point Child
+Theme URI: http://example.com/business-point-child/
+description: >-
+  Business Point Child Theme
+Author: Dipika Dubey
+Author URI: http://example.com
+Template: business-point
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: business-point-child
+*/
+
+.top-header,.button,.scrollup,button, .comment-reply-link, input[type="button"], input[type="reset"], input[type="submit"],.business_point_widget_services .services-item:hover .service-icon,#main-slider .pager-box {
+	background: #0073b1;
+}
+.button,.business_point_widget_services .services-item .service-icon {
+	border: 1px solid #0073b1;
+}
+#main-slider .pager-box.cycle-pager-active {
+	border: 5px solid #0073b1;
+}
+.top-menu-content .menu li a:after, .top-header .business_point_widget_social li a:after {
+	background: none;
+}
+.main-navigation ul li.current-menu-item a,.services-item a:after,.services-item a, .main-navigation ul li a:hover, a, a:visited,#footer-widgets .widget-title,.business_point_widget_services .services-item i {
+	color: #0073b1;
+}
+.business_point_widget_social ul li a[href*="skype.com"]::before {
+	content: "/f17e";
+}
+#home-page-widget-area .widget-title {
+	margin-top: 30px;
+}
+@media(min-width:768px) {
+.left-wrap {
+	width: 45%;
+	float: left;
+}
+.right-wrap {
+	margin-top: -45px;
+	width: 45%;
+	float: right;
+}
+}

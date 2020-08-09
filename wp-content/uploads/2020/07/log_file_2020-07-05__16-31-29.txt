@@ -1,0 +1,80 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8080/wordpress
+Data file = /usr/local/var/www/wordpress/wp-content/uploads/2020/07/businesspoint.wordpress.xml
+Widget file = /usr/local/var/www/wordpress/wp-content/uploads/2020/07/www.prodesigns.com-wordpress-themes-demo-business-point-widgets.wie
+Customizer file = /usr/local/var/www/wordpress/wp-content/uploads/2020/07/business-point-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Promenade Themes": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Widget already exists
+Video - Latest Video - Imported
+Custom HTML - No Title - Imported
+Custom HTML - Youtube Video - Imported
+
+Home Page Widget Area : 
+
+BP: Services - Our Services - Imported
+BP: CTA - Are you impressed with us? - Imported
+PT: Our Team - Our Team - Imported
+PT: Clients - Our Clients - Imported
+PT: Portfolio - Our Portfolio - Imported
+PT: Testimonials - What Our Clients Say - Imported
+BP: Latest News - Recent Posts - Imported
+BP: Newsletter - Subscribe us to get updated - Imported
+
+Footer 1 : 
+
+Text - About Us - Imported
+BP: Social - No Title - Imported
+
+Footer 2 : 
+
+BP: Advanced Recent Posts - Advanced Recent Posts - Imported
+
+Footer 3 : 
+
+Recent Posts - No Title - Imported
+
+Footer 4 : 
+
+Gallery - Gallery - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

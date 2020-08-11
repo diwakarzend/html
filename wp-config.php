@@ -81,8 +81,8 @@ define( 'WP_DEBUG', false );
 
 define('FS_METHOD', 'direct');
 
-define('WP_HOME','http://localhost:8080/webetechies/'); 
-define('WP_SITEURL','http://localhost:8080/webetechies/');
+define('WP_HOME','http://webetechies.com/'); 
+define('WP_SITEURL','http://webetechies.com/');
 
 
 

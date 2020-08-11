@@ -77,21 +77,27 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 define('FS_METHOD', 'direct');
 
 define('WP_HOME','http://webetechies.com/'); 
 define('WP_SITEURL','http://webetechies.com/');
 
+/** Absolute path to the WordPress directory. */
+
+if ( !defined('ABSPATH') )
+define('ABSPATH', dirname(__FILE__) . '/');
+
+define('CONCATENATE_SCRIPTS', false);
 
 
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
-}
+// if ( ! defined( 'ABSPATH' ) ) {
+// 	define( 'ABSPATH', __DIR__ . '/' );
+// }
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

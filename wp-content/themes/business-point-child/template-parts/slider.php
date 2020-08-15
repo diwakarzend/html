@@ -78,7 +78,6 @@ $overlay_class = ( true === $slider_overlay_status ) ? 'overlay-enabled' : 'over
 		endif; 
 
 		$count = 1; 
-
 		foreach ( $slider_details as $slide ) :
 
 			$extra_class = ( 1 === $count ) ? 'first' : ''; 

@@ -29,7 +29,7 @@
 				</div><!-- .copyright -->
 			<?php endif; ?>
 
-			<?php do_action( 'business_point_credit' ); ?>
+			<?php //do_action( 'business_point_credit' ); ?>
 			
 		</div><!-- .container -->
 	</footer><!-- #colophon -->

@@ -29,7 +29,7 @@ Text Domain: business-point-child
 	color: #0073b1;
 }
 .business_point_widget_social ul li a[href*="skype.com"]::before {
-	content: "/f17e";
+	content: "\f17e";
 }
 #home-page-widget-area .widget-title {
 	margin-top: 30px;

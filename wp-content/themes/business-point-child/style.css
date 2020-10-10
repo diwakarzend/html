@@ -34,10 +34,6 @@ Text Domain: business-point-child
 #home-page-widget-area .widget-title {
 	margin-top: 30px;
 }
-#footer-widgets .business_point_widget_social ul li{
-	float: none;
-	display: block;
-}
 .business_point_widget_social li a {
 	border: none;
 }
@@ -49,6 +45,20 @@ Text Domain: business-point-child
 }
 .slick-dots li.slick-active button {
 	border: 5px solid #0072b1;
+}
+#home-page-widget-area  .widget {
+    margin: 0px;
+    padding: 20px 0!important;
+}
+.call-to-action-buttons .cta-button-primary{
+color: #fff;
+}
+.call-to-action-buttons .cta-button-secondary {
+	background: #0072b1;
+	color: #fff;
+}
+.widget-column:last-child h4 {
+	margin-left: 20px;
 }
 @media(min-width:768px) {
 .left-wrap {

@@ -26,7 +26,7 @@ define( 'DB_NAME', 'portfolio_wordpress' );
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '123456' );
+define( 'DB_PASSWORD', '12345678' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -81,8 +81,8 @@ define( 'WP_DEBUG', false );
 
 define('FS_METHOD', 'direct');
 
-define('WP_HOME','http://localhost:8080/webetechies/'); 
-define('WP_SITEURL','http://localhost:8080/webetechies/');
+define('WP_HOME','http://webetechies.com/'); 
+define('WP_SITEURL','http://webetechies.com/');
 
 /** Absolute path to the WordPress directory. */
 

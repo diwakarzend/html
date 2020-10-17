@@ -164,7 +164,7 @@ function business_point_scripts() {
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/third-party/font-awesome/css/font-awesome.min.css', '', '4.7.0' );
 
-	wp_enqueue_style( 'business-point-style', get_stylesheet_uri(),array(), rand(101,9999), 'all'); );
+	wp_enqueue_style( 'business-point-style', get_stylesheet_uri(), array( 'parent-style' ), rand(101,9999), 'all');
 
 	wp_enqueue_script( 'business-point-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
 

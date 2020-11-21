@@ -83,6 +83,7 @@ section#custom_html-5 {
 .business_point_widget_social ul li a::before {
 	color: #fff;
 }
+
 @media(min-width:768px) {
 .left-wrap {
 	width: 45%;

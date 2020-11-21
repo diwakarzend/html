@@ -840,17 +840,10 @@ if ( ! class_exists( 'Business_Point_Services_Widget' ) ) :
 						
 							<div class="inner-wrapper">
 
-								<?php $index = 0;foreach ( $all_services as $post ): $index++; $next = $index + 1;?>
+								<?php foreach ( $all_services as $post ):?>
 									<?php setup_postdata( $post ); ?>
-                                    <?php if($index == 1 || $index == 4 || $index ==7){
-                                    echo '<div class="services-item animated bounceInLeft eds-on-scroll ">';
-                                    }elseif($index == 3 || $index == 6|| $index ==9){
-                                    echo '<div class="services-item animated bounceInRight" eds-on-scroll >';
-                                    }else{
-                                    echo '<div class="services-item animated flipInY eds-on-scroll ">';   
-                                    } 
-                                     ?>
-										<div class="service-icon rotateIn delay4 eds-on-scroll ">
+                                    <div class="services-item">
+										<div class="service-icon">
 											<i class="fa <?php echo esc_attr( $services_ids[ $post->ID ]['icon'] ); ?>"></i>
 										</div>
 										<h4 class="services-item-title" data-scroll-index="<?php echo $index ?>"><?php the_title(); ?></h4>

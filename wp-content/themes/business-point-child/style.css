@@ -70,6 +70,19 @@ section#custom_html-5 {
 	font-size: 30px;
 	padding: 20px 0;
 }
+#footer-widgets {
+		overflow: hidden;
+		background: #0073b1!important;
+		padding: 24px 0;
+}
+#footer-widgets .widget-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff!important;
+}
+.business_point_widget_social ul li a::before {
+	color: #fff;
+}
 @media(min-width:768px) {
 .left-wrap {
 	width: 45%;

@@ -61,13 +61,14 @@ color: #fff;
 	margin-left: 20px;
 }
 section#custom_html-5 {
-	backrgound: #000000;
+	background-color: #000000;
 	color: #fff;
 }
 .site-grow {
 	display: flex;
 	justify-content: space-between;
-	font-size: 40px;
+	font-size: 30px;
+	padding: 20px 0;
 }
 @media(min-width:768px) {
 .left-wrap {

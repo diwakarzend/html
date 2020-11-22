@@ -61,7 +61,7 @@ color: #fff;
 	margin-left: 20px;
 }
 section#custom_html-5 {
-	background-color: #000000;
+	background-color: #2674b1;
 	color: #fff;
 }
 .site-grow {
@@ -106,12 +106,16 @@ section#custom_html-5 {
 #primary-menu li:last-child{
     background: #2674b1;
     top: 50%;
-    transform: translate(80px, 11px);
+	transform: translate(80px, 11px);
+	border-radius: 30px;
 }
 #primary-menu li:last-child a {
     color: #fff!important;
     text-transform: none!important;
     padding: 12px 10px!important;
+}
+.business_point_widget_facts, .business_point_widget_call_to_action {
+	background: #2674b1;
 }
 .site-description {
 	font-size: 14px;
@@ -122,6 +126,17 @@ section#custom_html-5 {
 .main-navigation ul li a {
 	font-size: 16px;
 	font-weight: bold;
+}
+.business_point_widget_call_to_action .call-to-action-buttons .cta-button-primary {
+	background: #fff;
+	color: #2674b1;
+}
+.business_point_widget_call_to_action .call-to-action-buttons .cta-button-secondary.button {
+	border: 1px solid #2674b1;
+}
+.business_point_widget_call_to_action .call-to-action-buttons .cta-button-secondary.button:hover {
+	background: #fff;
+	color: #2674b1;
 }
 @media(min-width:768px) {
 .left-wrap {

@@ -86,6 +86,43 @@ section#custom_html-5 {
 #footer-widgets a, #footer-widgets .textwidget p {
 	color: #fff!important;
 }
+#colophon {
+	padding: 16px 0;
+}
+#masthead {
+	padding: 8px 0;
+}
+.site-title {
+	margin-top: 8px;
+	margin-bottom: 0px;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 30px;
+    font-weight: 600;
+}
+.site-title a{
+	color: #2674b1;
+}
+#primary-menu li:last-child{
+    background: #2674b1;
+    top: 50%;
+    transform: translate(80px, 11px);
+}
+#primary-menu li:last-child a {
+    color: #fff!important;
+    text-transform: none!important;
+    padding: 12px 10px!important;
+}
+.site-description {
+	font-size: 14px;
+	font-style: italic;
+	float: right;
+	color: #2674b1;
+}
+.main-navigation ul li a {
+	font-size: 16px;
+	font-weight: bold;
+}
 @media(min-width:768px) {
 .left-wrap {
 	width: 45%;

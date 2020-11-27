@@ -146,11 +146,13 @@ section#custom_html-5 {
 .pt-portfolio-thumb {
 	position: relative;
 }
+.pt-portfolio-thumb:hover .overlay-content{
+	display: flex;
+}
 .overlay-content {
 	position: absolute;
 	display: none;
-	width: 93%;
-	height: 90%;
+	width: auto;
 	background: #2674b1;
 	opacity: 0.79;
 	color: #fff;
@@ -158,6 +160,7 @@ section#custom_html-5 {
 	font-weight: bold;
 	letter-spacing: 0.5px;
 	top: 0;
+	text-align: center;
 	line-height: 18px;
 }
 .overlay-content p{

@@ -334,12 +334,17 @@ function pt_theme_addon_portfolio_widget_call( $post_number, $post_column, $feat
                                     }else{ 
                                         echo $portfolio_link_opening; ?>
                                         <img src="<?php echo esc_url( PT_URL . '/assets/images/camera-icon.jpg'  ); ?>" alt="<?php echo esc_html__( 'portfolio-thumb', 'pt-theme-addon' ); ?>" />
-                                        <?php echo'<div class="overlay-content">'?>;
-                                <?php the_content();?>
-                                <?php echo'</div>';?>
                                             <?php 
                                         echo $portfolio_link_closing;
                                     }?>
+                                     <?php 
+                                        echo $portfolio_link_opening;?> 								<?php echo $portfolio_link_opening; ?>
+                                        <div class="overlay-content">
+                                <?php the_content();?>
+                                </div>
+                                <?php 
+                                        echo $portfolio_link_closing;
+                                    ?>
                                 </div>
 
                                 <div class="pt-portfolio-text-wrap">

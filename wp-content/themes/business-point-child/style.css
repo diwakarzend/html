@@ -131,8 +131,13 @@ section#custom_html-5 {
 	background: #fff;
 	color: #2674b1;
 }
+.business_point_widget_call_to_action .call-to-action-buttons .cta-button-primary:hover {
+	background: #2674b1;
+	color: #fff;
+	border: 1px solid #fff;
+}
 .business_point_widget_call_to_action .call-to-action-buttons .cta-button-secondary.button {
-	border: 1px solid #2674b1;
+	border: 1px solid #fff;
 }
 .business_point_widget_call_to_action .call-to-action-buttons .cta-button-secondary.button:hover {
 	background: #fff;

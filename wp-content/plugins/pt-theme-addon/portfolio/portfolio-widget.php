@@ -302,7 +302,7 @@ function pt_theme_addon_portfolio_widget_call( $post_number, $post_column, $feat
                         $portfolio_terms .= $term->slug.' ';
                        
                     } ?>
-                    <div class="pt-portfolio-item <?php echo esc_html( $portfolio_terms ); ?>">
+                    <div class="pt-portfolio-item animated flipInX <?php echo esc_html( $portfolio_terms ); ?>">
                         <div class="pt-portfolio-wrapper">
                             <?php 
                             $portfolio_type = get_post_meta( absint($post_id), 'portfolio_type', true );
@@ -313,12 +313,12 @@ function pt_theme_addon_portfolio_widget_call( $post_number, $post_column, $feat
 
                             if( 'external' === $portfolio_type && !empty( $project_link ) ){
 
-                                $portfolio_link_opening = '<a href="'.esc_url( $project_link ).'" target="_blank">';
+                                $portfolio_link_opening = '<a href="'.esc_url( $project_link ).'" target="_blank" rel="noreferrer">';
                                 $portfolio_link_closing = '</a>';
 
 
                             } elseif( 'new_window' === $portfolio_type ){
-                                $portfolio_link_opening = '<a href="'.esc_url( get_permalink() ).'" target="_self">';
+                                $portfolio_link_opening = '<a href="'.esc_url( get_permalink() ).'" target="_self" rel="noreferrer">';
                                 $portfolio_link_closing = '</a>';
 
                             } ?>
@@ -334,6 +334,9 @@ function pt_theme_addon_portfolio_widget_call( $post_number, $post_column, $feat
                                     }else{ 
                                         echo $portfolio_link_opening; ?>
                                         <img src="<?php echo esc_url( PT_URL . '/assets/images/camera-icon.jpg'  ); ?>" alt="<?php echo esc_html__( 'portfolio-thumb', 'pt-theme-addon' ); ?>" />
+                                        <?php echo'<div class="overlay-content">'?>;
+                                <?php the_content();?>
+                                <?php echo'</div>';?>
                                             <?php 
                                         echo $portfolio_link_closing;
                                     }?>

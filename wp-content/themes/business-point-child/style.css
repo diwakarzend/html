@@ -143,6 +143,26 @@ section#custom_html-5 {
 	background: #fff;
 	color: #2674b1;
 }
+.pt-portfolio-thumb {
+	position: relative;
+}
+.overlay-content {
+	position: absolute;
+	display: none;
+	width: 93%;
+	height: 90%;
+	background: #2674b1;
+	opacity: 0.79;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	top: 0;
+	line-height: 18px;
+}
+.overlay-content p{
+	align-self: center;
+}
 @media(min-width:768px) {
 .left-wrap {
 	width: 45%;

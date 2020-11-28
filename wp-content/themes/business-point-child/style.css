@@ -154,7 +154,7 @@ section#custom_html-5 {
 	display: none;
 	width: auto;
 	height: 100%;
-	background: #2674b1;
+	background: #1a2b38;
 	opacity: 0.79;
 	color: #fff;
 	font-size: 18px;
@@ -162,7 +162,7 @@ section#custom_html-5 {
 	top: 0;
 	text-align: center;
 	line-height: 30px;
-    font-family: cursive;
+    font-family: auto;
 }
 .overlay-content p{
 	align-self: center;

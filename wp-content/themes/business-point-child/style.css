@@ -104,7 +104,13 @@ ul.filter-list li.active, ul.filter-list li:hover{
 #footer-widgets .widget-title {
 	font-size: 20px;
 	font-weight: bold;
-	color: #fff!important;
+	color: #1c3a7c!important;
+}
+ul#menu-social-menu {
+    margin-left: -10px;
+}
+.widget-column:last-child h4 {
+	margin-left: 0px !important;
 }
 #footer-widgets a, #footer-widgets .textwidget p,span.mail-text,.business_point_widget_social ul li a::before,.map-icon  {
 	color: #000!important;
@@ -117,6 +123,13 @@ ul.filter-list li.active, ul.filter-list li:hover{
 	padding: 8px 0;
     background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5);
     position: fixed;
+}
+.location {
+	margin-bottom: 14px;
+}
+i.fa.fa-map-marker {
+    color: #000;
+    font-size: 20px!important;
 }
 .site-title {
 	margin-top: 8px;

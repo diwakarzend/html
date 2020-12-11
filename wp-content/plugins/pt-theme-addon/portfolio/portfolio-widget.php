@@ -339,23 +339,25 @@ function pt_theme_addon_portfolio_widget_call( $post_number, $post_column, $feat
                                     }?>
                                      <?php 
                                         echo $portfolio_link_opening;?> 								<?php echo $portfolio_link_opening; ?>
-                                        <div class="overlay-content">
-                                <?php the_content();?>
+                                        <div class="overlay-content"><p>
+                                        <i class="fa fa-link"></i>
+                                <?php the_title();?>
+								</p>
                                 </div>
                                 <?php 
                                         echo $portfolio_link_closing;
                                     ?>
                                 </div>
 
-                                <div class="pt-portfolio-text-wrap">
-                                      <h3 class="pt-portfolio-title">
+                             <!--   <div class="pt-portfolio-text-wrap">-->
+                              <!--       <h3 class="pt-portfolio-title">-->
                                         <?php 
-                                        echo $portfolio_link_opening;
+                                        /*echo portfolio_link_opening;
                                         the_title();
                                         echo $portfolio_link_closing;
-                                        ?>
-                                      </h3><!-- .pt-portfolio-title -->
-                                </div><!-- .pt-portfolio-text-wrap -->
+                                        */?>
+                                    <!--  </h3> -->
+                             <!-- </div>--><!-- .pt-portfolio-text-wrap -->
 
                             </div>
                         </div>

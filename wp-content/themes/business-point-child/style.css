@@ -16,6 +16,9 @@ Text Domain: business-point-child
 .top-header,.button,.scrollup,button, .comment-reply-link, input[type="button"], input[type="reset"], input[type="submit"],.business_point_widget_services .services-item:hover .service-icon,#main-slider .pager-box {
 	background: #0073b1;
 }
+#main-slider {
+max-height: 100%!important;
+}
 .button,.business_point_widget_services .services-item .service-icon {
 	border: 1px solid #0073b1;
 }
@@ -25,14 +28,20 @@ Text Domain: business-point-child
 .top-menu-content .menu li a:after, .top-header .business_point_widget_social li a:after {
 	background: none;
 }
-.main-navigation ul li.current-menu-item a,.services-item a:after,.services-item a, .main-navigation ul li a:hover, a, a:visited,#footer-widgets .widget-title,.business_point_widget_services .services-item i {
-	color: #0073b1;
+.main-navigation ul li.current-menu-item a,.main-navigation ul li a:hover,.services-item:hover i:before{
+color: #fff!important;
+}
+.services-item a:after,.main-navigation ul li a ,.services-item a,#footer-widgets .widget-title,.business_point_widget_services .services-item i {
+	color: #1c3a7c!important;
 }
 .business_point_widget_social ul li a[href*="skype.com"]::before {
 	content: "\f17e";
 }
 #home-page-widget-area .widget-title {
 	margin-top: 30px;
+}
+#business-point-cta-1 .widget-title {
+	color: #1c3a7c!important;
 }
 .business_point_widget_social li a {
 	border: none;
@@ -48,7 +57,7 @@ Text Domain: business-point-child
 }
 #home-page-widget-area  .widget {
     margin: 0px;
-    padding: 20px 0!important;
+    padding: 0px 0 0;
 }
 .call-to-action-buttons .cta-button-primary{
 color: #fff;
@@ -61,18 +70,35 @@ color: #fff;
 	margin-left: 20px;
 }
 section#custom_html-5 {
-	background-color: #2674b1;
-	color: #fff;
+	background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5);
+    margin-top: -6px!important
 }
 .site-grow {
 	display: flex;
 	justify-content: space-between;
-	font-size: 30px;
 	padding: 20px 0;
+    color: #000;
 }
+span.grow-title {
+font-size: 40px;
+}
+span.grow-def {
+font-size: 16px;
+}
+ul.filter-list li {
+    font-size: 18px;
+    color: #0073b1;
+    border: 1px solid #0073b1;
+    padding: 6px 16px!important;
+    border-radius: 10px;
+}
+ul.filter-list li.active, ul.filter-list li:hover{
+    background: #0073b1;
+    color: #fff;
+    }
 #footer-widgets {
 		overflow: hidden;
-		background: #0073b1!important;
+        background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5)!important;
 		padding: 24px 0;
 }
 #footer-widgets .widget-title {
@@ -91,6 +117,8 @@ section#custom_html-5 {
 }
 #masthead {
 	padding: 8px 0;
+    background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5);
+    position: fixed;
 }
 .site-title {
 	margin-top: 8px;
@@ -101,10 +129,10 @@ section#custom_html-5 {
     font-weight: 600;
 }
 .site-title a{
-	color: #2674b1;
+	color: #1c3a7d;
 }
 #primary-menu li:last-child{
-    background: #2674b1;
+    background: #1c3a7c;
     top: 50%;
 	transform: translate(80px, 11px);
 	border-radius: 30px;
@@ -115,17 +143,18 @@ section#custom_html-5 {
     padding: 12px 10px!important;
 }
 .business_point_widget_facts, .business_point_widget_call_to_action {
-	background: #2674b1;
+	background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5)!important;
 }
 .site-description {
 	font-size: 14px;
 	font-style: italic;
 	float: right;
-	color: #2674b1;
+	color: #1c3a7d;
 }
 .main-navigation ul li a {
 	font-size: 16px;
 	font-weight: bold;
+    transition: transform(.2s);
 }
 .business_point_widget_call_to_action .call-to-action-buttons .cta-button-primary {
 	background: #fff;
@@ -152,12 +181,12 @@ section#custom_html-5 {
 .overlay-content {
 	position: absolute;
 	display: none;
-	width: auto;
+	width: 100%;
 	height: 100%;
 	background: #1a2b38;
 	opacity: 0.79;
 	color: #fff;
-	font-size: 18px;
+	font-size: 30px;
 	letter-spacing: 0.5px;
 	top: 0;
 	text-align: center;
@@ -167,8 +196,23 @@ section#custom_html-5 {
 .overlay-content p{
 	align-self: center;
 	padding: 0 18px;
+    width: 100%;
+    border: 12px solid #fff;
+    border-radius: 45px;
+    display: block;
+    margin: 24% auto;
 }
-@media(min-width:768px) {
+#media_image-2 .container {
+width: 100%;
+padding:0;
+}
+section#business-point-cta-1 .cta-widget {
+    padding-bottom: 45px!important;
+}
+#home-page-widget-area {
+padding: 80px 0 0;
+}
+@media(min-width:767px) {
 .left-wrap {
 	width: 45%;
 	float: left;

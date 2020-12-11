@@ -106,14 +106,12 @@ ul.filter-list li.active, ul.filter-list li:hover{
 	font-weight: bold;
 	color: #fff!important;
 }
-.business_point_widget_social ul li a::before {
-	color: #fff;
-}
-#footer-widgets a, #footer-widgets .textwidget p {
-	color: #fff!important;
+#footer-widgets a, #footer-widgets .textwidget p,span.mail-text,.business_point_widget_social ul li a::before,.map-icon  {
+	color: #000!important;
 }
 #colophon {
 	padding: 16px 0;
+	background-image: linear-gradient(to top,#d2f3fa,#01c8e5)!important;
 }
 #masthead {
 	padding: 8px 0;
@@ -155,6 +153,10 @@ ul.filter-list li.active, ul.filter-list li:hover{
 	font-size: 16px;
 	font-weight: bold;
     transition: transform(.2s);
+}
+.business_point_widget_call_to_action .call-to-action-buttons {
+	display: flex;
+	justify-content: center;
 }
 .business_point_widget_call_to_action .call-to-action-buttons .cta-button-primary {
 	background: #fff;
@@ -207,10 +209,10 @@ width: 100%;
 padding:0;
 }
 section#business-point-cta-1 .cta-widget {
-    padding-bottom: 45px!important;
+    padding-bottom: 20px!important;
 }
 #home-page-widget-area {
-padding: 80px 0 0;
+padding: 72px 0 0;
 }
 @media(min-width:767px) {
 .left-wrap {
@@ -252,4 +254,7 @@ span.grow-def {
 	padding: 6px 12px!important;
 	font-size: 12px;
 }
+#home-page-widget-area {
+	padding: 80px 0 0;
+	}
 }

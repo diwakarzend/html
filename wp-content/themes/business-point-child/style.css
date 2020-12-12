@@ -249,7 +249,11 @@ input[type="submit"]:hover {
 .request-button-submit input{
 	width: 30%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 50px;
+}
+input[type="checkbox"], input[type="radio"] {
+	width: auto!important;
+	margin: 10px;
 }
 span.wpcf7-form-control-wrap {
     margin-top: 10px;

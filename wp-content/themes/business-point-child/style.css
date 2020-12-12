@@ -267,7 +267,8 @@ span.wpcf7-form-control-wrap {
 	display: block;
 }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select, input[type="tel"] {
- border: 1px solid #1c3a7c;
+ border: 1px solid #ada9a9;
+ padding: 15px;
 }
 @media(min-width:767px) {
 .left-wrap {

@@ -246,7 +246,7 @@ input[type="tel"] {
 input[type="submit"]:hover {
 	background-color:#0073b1;
 }
-.request-button-submit {
+.request-button-submit input{
 	width: 30%;
     margin: 0 auto;
     padding: 10px;

@@ -112,6 +112,9 @@ ul#menu-social-menu {
 .widget-column:last-child h4 {
 	margin-left: 0px !important;
 }
+.scrollup:hover {
+background-color: #0073b1!important;
+}
 #footer-widgets a, #footer-widgets .textwidget p,span.mail-text,.business_point_widget_social ul li a::before,.map-icon  {
 	color: #000!important;
 }
@@ -226,6 +229,22 @@ section#business-point-cta-1 .cta-widget {
 }
 #home-page-widget-area {
 padding: 72px 0 0;
+}
+.field-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+label.quote-form-label {
+	width: 45%;
+	float: left;
+    display: inline-block;
+    margin: 10px;
+}
+input[type="tel"] {
+	padding: 6px 0 6px 9px;
+}
+input[type="submit"]:hover {
+	background-color:#0073b1;
 }
 @media(min-width:767px) {
 .left-wrap {

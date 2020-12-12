@@ -313,4 +313,10 @@ span.grow-def {
 #home-page-widget-area {
 	padding: 80px 0 0;
 	}
+	.field-wrapper {
+		margin-bottom: 0px;
+	}
+	label.quote-form-label {
+		width: 90%;
+	}
 }

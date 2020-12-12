@@ -232,7 +232,8 @@ padding: 72px 0 0;
 }
 .field-wrapper {
     display: inline-block;
-    width: 100%;
+	width: 100%;
+	margin-bottom: 10px;
 }
 label.quote-form-label {
 	width: 45%;
@@ -258,6 +259,12 @@ input[type="checkbox"], input[type="radio"] {
 span.wpcf7-form-control-wrap {
     margin-top: 10px;
     display: block;
+}
+.wpcf7-form-control-wrap.your-message {
+	width: 94%;
+}
+.quote-form-label-services .wpcf7-list-item {
+	display: block;
 }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select, input[type="tel"] {
  border: 1px solid #1c3a7c;

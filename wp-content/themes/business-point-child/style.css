@@ -246,6 +246,18 @@ input[type="tel"] {
 input[type="submit"]:hover {
 	background-color:#0073b1;
 }
+.request-button-submit {
+	width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+span.wpcf7-form-control-wrap {
+    margin-top: 10px;
+    display: block;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select, input[type="tel"] {
+ border: 1px solid #1c3a7c;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

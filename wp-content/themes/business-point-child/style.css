@@ -283,6 +283,9 @@ form.wpcf7-form.sent .field-wrapper {
     border: 1px solid #ab1313!important;
     background: #ab1313;
 }
+#content {
+	margin-top: 75px;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

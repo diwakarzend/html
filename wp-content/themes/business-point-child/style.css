@@ -342,6 +342,10 @@ span.grow-def {
 	font-size: 20px;
 	padding-top: 20px;
 }
+.right-wrap,.left-wrap {
+	width: 100%;
+	padding-right:0;
+}
 }
 @media only screen and (max-width: 550px) {
 .pt-portfolio .filter-list li{
@@ -358,4 +362,5 @@ span.grow-def {
 	label.quote-form-label {
 		width: 90%;
 	}
+
 }

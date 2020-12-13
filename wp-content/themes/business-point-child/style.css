@@ -12,7 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain: business-point-child
 */
-
+body {
+	font-size: 16px;
+}
 .top-header,.button,.scrollup,button, .comment-reply-link, input[type="button"], input[type="reset"], input[type="submit"],.business_point_widget_services .services-item:hover .service-icon,#main-slider .pager-box {
 	background: #0073b1;
 }
@@ -269,6 +271,7 @@ span.wpcf7-form-control-wrap {
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select, input[type="tel"] {
  border: 1px solid #ada9a9;
  padding: 15px;
+ font-size: 100%;
 }
 form.wpcf7-form.sent .field-wrapper {
     display: none;

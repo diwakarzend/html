@@ -276,7 +276,8 @@ form.wpcf7-form.sent .field-wrapper {
 .wpcf7 form.sent .wpcf7-response-output {
     border-color: #000;
     text-align: center;
-    padding: 15px;
+	padding: 15px;
+	color: green;
 }
 .wpcf7-form.invalid input.wpcf7-submit, .wpcf7-form.invalid input.wpcf7-submit:hover{
     border: 1px solid #ab1313!important;

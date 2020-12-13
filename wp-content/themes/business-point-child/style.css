@@ -263,7 +263,7 @@ span.wpcf7-form-control-wrap {
 .wpcf7-form-control-wrap.your-message {
 	width: 94%;
 }
-.quote-form-label-services .wpcf7-list-item {
+.quote-form-label-services .wpcf7-list-item ,span.wpcf7-list-item{
 	display: block;
 }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select, input[type="tel"] {
@@ -277,6 +277,10 @@ form.wpcf7-form.sent .field-wrapper {
     border-color: #000;
     text-align: center;
     padding: 15px;
+}
+.wpcf7-form.invalid input.wpcf7-submit, .wpcf7-form.invalid input.wpcf7-submit:hover{
+    border: 1px solid #ab1313!important;
+    background: #ab1313;
 }
 @media(min-width:767px) {
 .left-wrap {

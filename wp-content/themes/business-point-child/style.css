@@ -294,6 +294,7 @@ form.wpcf7-form.sent .field-wrapper {
 .benefits-title {
     top: -50%;
 	transform: translate(10px, -15px);
+	width: auto!important;
 }
 .wpcf7 form.sent .wpcf7-response-output {
     border-color: #000;

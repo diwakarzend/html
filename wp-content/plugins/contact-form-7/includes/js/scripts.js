@@ -247,6 +247,7 @@
 
 			if ( 'mail_sent' == data.status ) {
 				$form.each( function() {
+					this.hide();
 					this.reset();
 				} );
 

@@ -142,7 +142,7 @@ i.fa.fa-map-marker {
 	font-size: 30px;
     font-weight: 600;
 }
-.site-title a,a:visited,a{
+.site-title a,a:visited,a,a:hover{
 	color: #1c3a7d;
 }
 #primary-menu li:last-child{

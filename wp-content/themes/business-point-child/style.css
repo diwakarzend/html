@@ -276,6 +276,14 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 form.wpcf7-form.sent .field-wrapper {
     display: none;
 }
+.pay-benefits ul {
+    list-style-type: none;
+}
+.pay-benefits ul li {
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
 .wpcf7 form.sent .wpcf7-response-output {
     border-color: #000;
     text-align: center;

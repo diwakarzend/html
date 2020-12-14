@@ -369,13 +369,11 @@ span.grow-def {
 		z-index: 1;
 		left: -15px;
 		display: block;
-		width: 5%;
 	}
 	ul.sidebar-quote li {
 		padding: 10px 4px;
 		text-orientation: mixed;
 		writing-mode: tb;
-		border: 2px solid #fff;
 	}
 	ul.sidebar-quote a {
 		color: white;

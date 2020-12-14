@@ -309,6 +309,9 @@ form.wpcf7-form.sent .field-wrapper {
 #content {
 	margin-top: 75px;
 }
+ul.sidebar-quote {
+	display: none;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;
@@ -346,26 +349,29 @@ span.grow-def {
 	width: 100%!important;
 	padding-right:0!important;
 }
-ul.sidebar-quote {
-    list-style: none;
-    background: #0073b1;
-    color: #fff!importaant;
-    float: revert;
-    position: fixed;
-    top: 35%;
-    z-index: 1;
-    right: 0;
 }
-ul.sidebar-quote li {
-    padding: 10px;
-    text-orientation: mixed;
-    writing-mode: tb;
-    border: 8px solid #fff;
-}
-ul.sidebar-quote a {
-    color: white;
-}
-}
+@media (max-width: 1024px){
+	ul.sidebar-quote {
+		list-style: none;
+		background: #0073b1;
+		color: #fff!importaant;
+		float: revert;
+		position: fixed;
+		top: 35%;
+		z-index: 1;
+		right: 0;
+		display: block;
+	}
+	ul.sidebar-quote li {
+		padding: 10px;
+		text-orientation: mixed;
+		writing-mode: tb;
+		border: 8px solid #fff;
+	}
+	ul.sidebar-quote a {
+		color: white;
+	}
+	}
 
 @media only screen and (max-width: 550px) {
 .pt-portfolio .filter-list li{

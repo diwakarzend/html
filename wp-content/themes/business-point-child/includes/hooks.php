@@ -298,7 +298,7 @@ if ( ! function_exists( 'business_point_before_content_action' ) ) :
      * @since 1.0.0
      */
     function business_point_before_content_action() {
-    ?><div id="content" class="site-content"><div class="container"><div class="inner-wrapper"><?php
+    ?><div id="content" class="site-content"><?php
     }
 endif;
 add_action( 'business_point_before_content', 'business_point_before_content_action' );
@@ -313,7 +313,7 @@ if ( ! function_exists( 'business_point_after_content_action' ) ) :
      * @since 1.0.0
      */
     function business_point_after_content_action() {
-    ?></div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content --><?php    
+    ?></div><!-- #content --><?php    
     }
 endif;
 add_action( 'business_point_after_content', 'business_point_after_content_action' );

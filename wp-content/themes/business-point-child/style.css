@@ -314,6 +314,9 @@ form.wpcf7-form.sent .field-wrapper {
 ul.sidebar-quote {
 	display: none;
 }
+.featured-thumb img {
+	height: 450px;
+}
 #hubspot-messages-iframe-container.widget-align-right {
 	margin-right: -12px!important;
 	margin-bottom: 0px!important;

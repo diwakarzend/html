@@ -356,11 +356,25 @@ header.entry-header.our-skills {
     margin-bottom: 30px;
 }
 .skills-list {
-	list-style: none;
+    list-style: none;
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
+}
+li.skills-wrap.parent {
+    width: 15%;
+}
+p.skills-title.img {
+    padding: 20px 0;
+    height: 81%;
+    display: block;
+}
+li.skills-wrap.parent img {
+    width: 64px;
+	height: 64px;
+	display: block;
+	margin: 0 auto;
 }
 li.skills-wrap {
 	width: 32%;

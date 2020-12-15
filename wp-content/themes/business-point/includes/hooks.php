@@ -313,7 +313,7 @@ if ( ! function_exists( 'business_point_after_content_action' ) ) :
      * @since 1.0.0
      */
     function business_point_after_content_action() {
-    ?><</div><!-- #content --><?php    
+    ?></div><!-- #content --><?php    
     }
 endif;
 add_action( 'business_point_after_content', 'business_point_after_content_action' );

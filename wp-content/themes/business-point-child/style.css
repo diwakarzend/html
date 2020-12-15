@@ -314,6 +314,9 @@ form.wpcf7-form.sent .field-wrapper {
 ul.sidebar-quote {
 	display: none;
 }
+.featured-thumb, .featured-thumb a {
+width: 100%;
+}
 .featured-thumb img {
 	height: 500px;
 	width: 100%;

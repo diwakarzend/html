@@ -389,7 +389,9 @@ ul.skills-list.secondary {
 	margin-top: 40px;
 }
 ul.skills-list.secondary img {
-    height: 100px;
+	height: 100px;
+	text-align:center;
+	display: block;
     margin: 0 auto;
 }
 li.skills-wrap.parent img {

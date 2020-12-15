@@ -367,8 +367,8 @@ li.skills-wrap.parent {
 	font-size: 15px;
 }
 p.skills-title.img {
-    padding: 20px 0;
-    height: 81%;
+    padding: 20px 0 0px;
+    height: 100%;
     display: block;
 }
 li.skills-wrap.parent.active {
@@ -386,8 +386,9 @@ li.skills-wrap.parent.active::before {
 	transform: rotate(45deg);
 }
 li.skills-wrap.parent img {
-    width: 64px;
-	height: 64px;
+	width: 70px;
+    height: 80px;
+    padding-bottom: 10px;
 	display: block;
 	margin: 0 auto;
 }

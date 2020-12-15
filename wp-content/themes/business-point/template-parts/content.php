@@ -18,7 +18,8 @@
 	<?php endif; ?>
 
 	<?php $contet_class =  ( has_post_thumbnail() ) ? 'content-with-image' : 'content-no-image'; ?>
-
+    <div class="container">
+    <div class="inner-wrapper">		
 	<div class="content-wrap <?php echo $contet_class; ?>">
 		<div class="content-wrap-inner">
 			<header class="entry-header">
@@ -46,6 +47,8 @@
 				<a class="readmore-content" href="<?php echo esc_url( get_permalink() );?>" rel="bookmark"><?php echo esc_html__( 'Continue Reading ', 'business-point');?><i class="fa fa-angle-double-right"> </i></a>
 			</div><!-- .entry-content -->
 		</div>
+	
 	</div>
-
+	</div>
+	</div>
 </article><!-- #post-## -->

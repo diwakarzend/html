@@ -318,8 +318,11 @@ ul.sidebar-quote {
 width: 100%;
 }
 .featured-thumb img {
-	height: 380px;
+	height: 350px;
 	width: 100%;
+}
+.featured-thumb.our-skills img {
+	height: 420px;
 }
 #hubspot-messages-iframe-container.widget-align-right {
 	margin-right: -12px!important;
@@ -343,6 +346,10 @@ header.entry-header {
     margin: 0 auto;
     text-align: center;
     color: #fff;
+}
+header.entry-header.our-skills {
+    width: auto;
+    margin-left: 100px;
 }
 .entry-head {
     margin-bottom: 30px;

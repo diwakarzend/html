@@ -13,7 +13,7 @@
 
 <div class="entry-head">
 	<?php if ( has_post_thumbnail() ) : ?>
-		<div class="featured-thumb">
+		<div class="featured-thumb <?php if(get_the_title() === 'Our Skills') echo 'our-skills'?>">
 			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'full' ); ?></a>
 		</div>
 	<?php endif; ?>

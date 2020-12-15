@@ -321,7 +321,7 @@ a#btn-scrollup {
     right: 12px;
 }
 #primary {
-	padding: 0;
+	padding: 0!important;
 }
 @media(min-width:767px) {
 .left-wrap {

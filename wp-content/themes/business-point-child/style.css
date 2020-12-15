@@ -307,7 +307,9 @@ form.wpcf7-form.sent .field-wrapper {
     background: #ab1313;
 }
 #content {
-	margin-top: 75px;
+    margin-top: 85px;
+	position: relative;
+	padding: 0 0 40px 0;
 }
 ul.sidebar-quote {
 	display: none;
@@ -322,6 +324,18 @@ a#btn-scrollup {
 }
 #primary {
 	padding: 0!important;
+}
+.page .entry-title {
+	font-size: 50px;
+	color: #fff;
+}
+header.entry-header {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
 }
 @media(min-width:767px) {
 .left-wrap {

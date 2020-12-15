@@ -355,6 +355,24 @@ header.entry-header.our-skills {
 .entry-head {
     margin-bottom: 30px;
 }
+.skills-list {
+	list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+li.skills-wrap {
+	width: 32%;
+}
+p.skills-title {
+    background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5);
+    text-align: center;
+    color: #1c3a7c;
+    padding: 43px 0px;
+    font-size: 20px;
+    height: 40%;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

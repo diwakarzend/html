@@ -315,7 +315,8 @@ ul.sidebar-quote {
 	display: none;
 }
 .featured-thumb img {
-	height: 450px;
+	height: 500px;
+	width: 100%;
 }
 #hubspot-messages-iframe-container.widget-align-right {
 	margin-right: -12px!important;

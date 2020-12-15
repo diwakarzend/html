@@ -329,7 +329,7 @@ a#btn-scrollup {
 	padding: 0!important;
 }
 .page .entry-title {
-	font-size: 50px;
+	font-size: 50px!important;
 	color: #fff;
 }
 header.entry-header {

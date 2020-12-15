@@ -363,12 +363,27 @@ header.entry-header.our-skills {
     flex-wrap: wrap;
 }
 li.skills-wrap.parent {
-    width: 15%;
+	width: 15%;
+	font-size: 15px;
 }
 p.skills-title.img {
     padding: 20px 0;
     height: 81%;
     display: block;
+}
+li.skills-wrap.parent.active {
+    position: relative;
+    border-bottom: 4px solid #1c3a7c;
+}
+li.skills-wrap.parent.active::before {
+    content: " ";
+    position: absolute;
+    left: 45%;
+    bottom: -10px;
+    background-color: #25cde8;
+    width: 20px;
+    height: 20px;
+	transform: rotate(45deg);
 }
 li.skills-wrap.parent img {
     width: 64px;

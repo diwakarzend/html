@@ -318,7 +318,7 @@ ul.sidebar-quote {
 width: 100%;
 }
 .featured-thumb img {
-	height: 500px;
+	height: 300px;
 	width: 100%;
 }
 #hubspot-messages-iframe-container.widget-align-right {
@@ -344,13 +344,15 @@ header.entry-header {
     text-align: center;
     color: #fff;
 }
+.entry-head {
+    margin-bottom: 30px;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;
 	float: left;
 }
 .right-wrap {
-	margin-top: -45px;
 	width: 45%;
 	float: right;
 }

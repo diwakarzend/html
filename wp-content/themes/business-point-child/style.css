@@ -349,7 +349,8 @@ header.entry-header {
 }
 header.entry-header.our-skills {
     width: auto;
-    margin-left: 100px;
+	margin-left: 120px;
+	top: 14%;
 }
 .entry-head {
     margin-bottom: 30px;

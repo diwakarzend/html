@@ -23,7 +23,7 @@
 <div class="content-wrap">
 	<div class="content-wrap-inner">
 		
-		<header class="entry-header tester<?php if(is_page == 'our-skills') echo 'our-skills'?>">
+		<header class="entry-header tester<?php if(is_page == '17') echo 'our-skills'?>">
 			<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 		</header><!-- .entry-header -->
 

@@ -22,7 +22,7 @@
     <div class="inner-wrapper">		
 	<div class="content-wrap <?php echo $contet_class; ?>">
 		<div class="content-wrap-inner">
-			<header class="entry-header test<?php if(is_page == 'our-skills') echo 'our-skills'?>">
+			<header class="entry-header">
 				<?php
 
 				$cat_meta = business_point_get_option( 'category_meta' );

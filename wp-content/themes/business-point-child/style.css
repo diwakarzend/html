@@ -400,6 +400,7 @@ li.skills-wrap.parent img {
     padding-bottom: 10px;
 	display: block;
 	margin: 0 auto;
+	cursor: pointer;
 }
 li.skills-wrap {
 	width: 32%;

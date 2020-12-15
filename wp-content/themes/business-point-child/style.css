@@ -385,6 +385,13 @@ li.skills-wrap.parent.active::before {
     height: 20px;
 	transform: rotate(45deg);
 }
+ul.skills-list.secondary {
+	margin-top: 40px;
+}
+ul.skills-list.secondary img {
+    height: 100px;
+    margin: 0 auto;
+}
 li.skills-wrap.parent img {
 	width: 70px;
     height: 80px;

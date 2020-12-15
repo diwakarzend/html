@@ -320,6 +320,9 @@ a#btn-scrollup {
     margin-bottom: 45px;
     right: 12px;
 }
+#primary {
+	padding: 0;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

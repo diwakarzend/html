@@ -17,5 +17,19 @@ jQuery(".wpcf7-submit").click(function(){
   }
   },9000);
   });
+  
+  jQuery(".skills-wrap.parent").click(function(){
+    jQuery(this).siblings().removeClass('active');
+    jQuery(this).addClass('active');
+    var tech = jQuery(this).attr('data-filter');
+    jQuery(".skills-list.secondary").each(function(){
+    var curr_id = jQuery(this).attr('id');
+    if(curr_id == tech){
+    jQuery(this).css('display','flex');
+    }else {
+    jQuery(this).css('display','none');
+    }
+    }); 
+    });
 
 

@@ -365,6 +365,7 @@ header.entry-header.our-skills {
 li.skills-wrap.parent {
 	width: 15%;
 	font-size: 15px;
+	cursor: pointer;
 }
 p.skills-title.img {
     padding: 20px 12px 0px;
@@ -387,6 +388,7 @@ li.skills-wrap.parent.active::before {
 }
 ul.skills-list.secondary {
 	margin-top: 40px;
+	display:none;
 }
 ul.skills-list.secondary img {
 	height: 100px;
@@ -400,7 +402,6 @@ li.skills-wrap.parent img {
     padding-bottom: 10px;
 	display: block;
 	margin: 0 auto;
-	cursor: pointer;
 }
 li.skills-wrap {
 	width: 32%;

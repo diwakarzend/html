@@ -457,6 +457,9 @@ header.entry-header.our-skills {
 	margin-left: 34px;
 	top: 5%;
 	}
+header.entry-header {
+	top: 5%;
+}
 .entry-title {
 	font-size: 34px;
 	}

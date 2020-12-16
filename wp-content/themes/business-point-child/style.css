@@ -450,6 +450,16 @@ span.grow-def {
 	width: 100%!important;
 	padding-right:0!important;
 }
+.featured-thumb.our-skills img {
+	height: 250px;
+	}
+header.entry-header.our-skills {
+	margin-left: 34px;
+	top: 5%;
+	}
+.entry-title {
+	font-size: 34px;
+	}
 }
 @media (max-width: 1024px){
 	ul.sidebar-quote {

@@ -460,9 +460,27 @@ header.entry-header.our-skills {
 header.entry-header {
 	top: 5%;
 }
-.entry-title {
-	font-size: 34px;
-	}
+.entry-head {
+    margin-bottom: 0px;
+}
+header.entry-header h2.entry-title {
+    font-size: 30px!important;
+}
+.skills-list {
+	margin: 0;
+	padding:0;
+}
+li.skills-wrap.parent {
+	width: 32%;
+	font-size: 15px;
+	margin-bottom: 10px;
+}	
+p.skills-title.img {
+	padding: 10px 11px 0px;
+}
+ul.skills-list.secondary li {
+	width: 100%;
+}
 }
 @media (max-width: 1024px){
 	ul.sidebar-quote {

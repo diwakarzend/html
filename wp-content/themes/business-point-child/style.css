@@ -393,6 +393,7 @@ ul.skills-list.secondary {
 	display:none;
 	margin-left: 15px;
 	margin-right: 15px;
+	width: 95%;
 }
 ul.skills-list.secondary img {
 	height: 100px;

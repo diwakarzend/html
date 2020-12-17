@@ -522,3 +522,16 @@ ul.skills-list.secondary li {
 	}
 
 }
+@media(max-width:480px){
+	li.skills-wrap.parent {
+		width: 49%;
+	}
+	p.skills-title.img {
+		font-size: 12px;
+	}
+	li.skills-wrap.parent img {
+		width: 40px;
+		height: 40px;
+		padding-bottom: 0px;
+	}
+}

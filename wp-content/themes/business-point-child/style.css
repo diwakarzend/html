@@ -508,6 +508,12 @@ ul.skills-list.secondary li {
 	.featured-thumb img {
 		height: 240px;
 	}
+	.pt-portfolio .filter-list li:first-child {
+		margin-left: 24px;
+	}
+	.pt-portfolio .filter-list li {
+		margin-bottom: 10px;
+	}
 	}
 
 @media only screen and (max-width: 550px) {

@@ -322,7 +322,7 @@ width: 100%;
 	width: 100%;
 }
 .featured-thumb.our-skills img {
-	height: 420px;
+	height: 480px;
 }
 #hubspot-messages-iframe-container.widget-align-right {
 	margin-right: -12px!important;
@@ -374,7 +374,7 @@ p.skills-title.img {
 }
 li.skills-wrap.parent.active {
     position: relative;
-    border-bottom: 4px solid #1c3a7c;
+    border: 4px solid #1c3a7c;
 }
 li.skills-wrap.parent.active::before {
     content: " ";

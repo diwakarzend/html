@@ -391,6 +391,8 @@ li.skills-wrap.parent.active::before {
 ul.skills-list.secondary {
 	margin-top: 40px;
 	display:none;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 ul.skills-list.secondary img {
 	height: 100px;

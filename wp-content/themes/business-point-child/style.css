@@ -505,6 +505,9 @@ ul.skills-list.secondary li {
 	ul.sidebar-quote a {
 		color: white;
 	}
+	.featured-thumb img {
+		height: 240px;
+	}
 	}
 
 @media only screen and (max-width: 550px) {

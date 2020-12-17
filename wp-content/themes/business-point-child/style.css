@@ -539,4 +539,14 @@ ul.skills-list.secondary li {
 		height: 40px;
 		padding-bottom: 0px;
 	}
+	.pt-portfolio.pt-portfolio-col-3 {
+		margin: 0 24px;
+		width: 90%;
+	}
+	.pt-portfolio .filter-list li:first-child {
+		margin-left: 5px;
+	}
+	.pt-portfolio .filter-list li {
+		margin-left: 6px;
+	}
 }

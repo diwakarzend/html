@@ -33,9 +33,13 @@ jQuery(".wpcf7-submit").click(function(){
     });
 
     jQuery(".skills-wrap.parent").on("click" ,function(){
-      jQuery(this).animate({
-          scrollTop: jQuery(".skills-list.secondary").offset().top
-      }, 1500);
+        event.preventDefault();
+        var hash = jQuery(".secondary");
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
     });
 
 

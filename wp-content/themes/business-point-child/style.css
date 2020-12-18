@@ -348,9 +348,11 @@ header.entry-header {
     color: #fff;
 }
 header.entry-header.our-skills {
-    width: auto;
+	width: auto;
 	margin-left: 120px;
-	top: 14%;
+	top: -300px;
+    text-align: left;
+	position: relative;
 }
 .entry-head {
     margin-bottom: 30px;
@@ -460,7 +462,8 @@ span.grow-def {
 	}
 header.entry-header.our-skills {
 	margin-left: 34px;
-	top: 5%;
+	top: -150px;
+	text-align: left;
 	}
 header.entry-header {
 	top: 5%;

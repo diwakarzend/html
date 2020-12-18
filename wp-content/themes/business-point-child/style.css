@@ -340,8 +340,8 @@ a#btn-scrollup {
 	color: #fff;
 }
 header.entry-header {
-    position: absolute;
-    top: 10%;
+    position: relative;
+    top: -300px;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -466,7 +466,7 @@ header.entry-header.our-skills {
 	text-align: left;
 	}
 header.entry-header {
-	top: 5%;
+	top: -150px;
 }
 .entry-head {
     margin-bottom: 0px;

@@ -17,7 +17,7 @@ jQuery(".wpcf7-submit").click(function(){
   }
   },9000);
   });
-  
+
   jQuery(".skills-wrap.parent").click(function(){
     jQuery(this).siblings().removeClass('active');
     jQuery(this).addClass('active');
@@ -30,6 +30,12 @@ jQuery(".wpcf7-submit").click(function(){
     jQuery(this).css('display','none');
     }
     }); 
+    });
+
+    jQuery(".skills-wrap.parent").on("click" ,function(){
+      jQuery('html, body').animate({
+          scrollTop: jQuery(".skills-list.secondary").offset().top
+      }, 1500);
     });
 
 

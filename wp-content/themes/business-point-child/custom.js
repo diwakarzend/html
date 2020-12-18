@@ -35,8 +35,8 @@ jQuery(".wpcf7-submit").click(function(){
     jQuery(".skills-wrap.parent").on("click" ,function(){
         event.preventDefault();
         var hash = jQuery(".secondary");
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
+        jQuery('html, body').animate({
+          scrollTop: jQuery(hash).offset().top
         }, 800, function(){
           window.location.hash = hash;
         });

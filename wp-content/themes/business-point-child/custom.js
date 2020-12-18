@@ -32,14 +32,17 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
-    jQuery(".skills-wrap.parent").on("click" ,function(){
+    jQuery(".skills-wrap.parent a").on("click" ,function(){
+      if (this.hash !== "") {
         event.preventDefault();
-        var hash = jQuery(".secondary");
+        var hash = this.hash;
+  
         jQuery('html, body').animate({
           scrollTop: jQuery(hash).offset().top
         }, 800, function(){
           window.location.hash = hash;
         });
+      } 
     });
 
 

@@ -503,6 +503,9 @@ ul.skills-list.secondary li {
 		left: -15px;
 		display: block;
 	}
+	header.entry-header  {
+		top: -200px;
+	}
 	ul.sidebar-quote li {
 		padding: 10px 4px;
 		text-orientation: mixed;

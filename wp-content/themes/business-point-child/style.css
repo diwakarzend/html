@@ -506,7 +506,7 @@ ul.skills-list.secondary li {
 		display: block;
 	}
 	ul.sidebar-quote li {
-		padding: 10px;
+		padding: 10px 15px;
 		text-orientation: mixed;
 		writing-mode: tb;
 		display: block;

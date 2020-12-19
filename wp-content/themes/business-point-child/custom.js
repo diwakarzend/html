@@ -33,7 +33,7 @@ jQuery(".wpcf7-submit").click(function(){
     });
 
     jQuery(".tab-click").on("click" ,function(){
-      console.log('inner.. '+ this.hash);
+      setTimeout(function(){console.log('inner.. '+ this.hash);
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
@@ -44,6 +44,7 @@ jQuery(".wpcf7-submit").click(function(){
           window.location.hash = hash;
         });
       } 
+    },500);
     });
 
 

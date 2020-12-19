@@ -27,8 +27,8 @@ jQuery(".wpcf7-submit").click(function(){
     if(curr_id == tech){
     jQuery(this).css('display','flex');
     jQuery('html, body').animate({
-      scrollTop: jQuery(this).offset().top
-  }, 500);
+      scrollTop: jQuery(this).children('li').first().offset().top
+  }, 1500);
     }else {
     jQuery(this).css('display','none');
     }

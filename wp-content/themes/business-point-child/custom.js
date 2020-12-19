@@ -32,19 +32,11 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
-    jQuery(".tab-click").on("click" ,function(event){
-      setTimeout(function(){console.log('inner.. '+ this.hash);
-      if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-          console.log("inner... "+hash);
-        jQuery('html, body').animate({
-          scrollTop: jQuery(hash).offset().top
-        }, 800, function(){
-          window.location.hash = hash;
-        });
-      } 
-    },500);
-    });
+    jQuery(".skills-wrap.parent").click(function(){
+      jQuery('html, body').animate({
+          scrollTop: jQuery(".secondary").offset().top
+      }, 2000);
+      return false;
+  });
 
 

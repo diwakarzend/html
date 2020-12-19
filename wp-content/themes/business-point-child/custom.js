@@ -32,9 +32,10 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
-    jQuery(".tab-click").on("click" ,function(){
+    jQuery(".tab-click").on("click" ,function(event){
       setTimeout(function(){console.log('inner.. '+ this.hash);
       if (this.hash !== "") {
+        event.preventDefault();
         var hash = this.hash;
           console.log("inner... "+hash);
         jQuery('html, body').animate({

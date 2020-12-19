@@ -26,20 +26,13 @@ jQuery(".wpcf7-submit").click(function(){
     var curr_id = jQuery(this).attr('id');
     if(curr_id == tech){
     jQuery(this).css('display','flex');
+    jQuery('html, body').animate({
+      scrollTop: jQuery(this).offset().top
+  }, 2000);
     }else {
     jQuery(this).css('display','none');
     }
     }); 
     });
-
-    jQuery(".skills-wrap.parent").each(function(){
-      jQuery(this).click(function(){
-      console.log('user...');
-      jQuery('html, body').animate({
-          scrollTop: jQuery(".secondary").offset().top
-      }, 2000);
-      return false;
-  });
-});
 
 

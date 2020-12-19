@@ -160,6 +160,7 @@ i.fa.fa-map-marker {
 }
 .business_point_widget_facts, .business_point_widget_call_to_action {
 	background-image: linear-gradient(to bottom,#d2f3fa,#01c8e5)!important;
+	z-index: 0;
 }
 .site-description {
 	font-size: 14px;

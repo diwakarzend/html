@@ -421,26 +421,6 @@ p.skills-title {
     font-size: 16px;
     height: 40%;
 }
-ul.sidebar-quote {
-	list-style: none;
-	background: #0073b1;
-	position: fixed;
-	top: 35%;
-	z-index: 1;
-	left: 0x;
-	margin: 0;
-	display: block;
-}
-ul.sidebar-quote li {
-	padding: 10px;
-	text-orientation: mixed;
-	writing-mode: tb;
-	display: block;
-}
-ul.sidebar-quote a {
-	color: #fff;
-	display: block;
-}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;
@@ -512,6 +492,26 @@ ul.skills-list.secondary li {
 }
 }
 @media (max-width: 1024px){
+	ul.sidebar-quote {
+		list-style: none;
+		background: #0073b1;
+		position: fixed;
+		top: 35%;
+		z-index: 1;
+		left: 0x;
+		margin: 0;
+		display: block;
+	}
+	ul.sidebar-quote li {
+		padding: 10px;
+		text-orientation: mixed;
+		writing-mode: tb;
+		display: block;
+	}
+	ul.sidebar-quote a {
+		color: #fff;
+		display: block;
+	}
 	.featured-thumb img {
 		height: 240px;
 	}

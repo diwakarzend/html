@@ -28,7 +28,7 @@ jQuery(".wpcf7-submit").click(function(){
     jQuery(this).css('display','flex');
     jQuery('html, body').animate({
       scrollTop: jQuery(this).offset().top
-  }, 1500);
+  }, 500);
     }else {
     jQuery(this).css('display','none');
     }

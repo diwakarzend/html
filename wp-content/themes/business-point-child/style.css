@@ -421,6 +421,9 @@ p.skills-title {
     font-size: 16px;
     height: 40%;
 }
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
+    padding-right: 0!important;
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

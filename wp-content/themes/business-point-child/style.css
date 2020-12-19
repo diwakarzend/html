@@ -495,7 +495,6 @@ ul.skills-list.secondary li {
 	ul.sidebar-quote {
 		list-style: none;
 		background: #0073b1;
-		color: red!important;
 		position: fixed;
 		top: 35%;
 		z-index: 1;
@@ -504,9 +503,12 @@ ul.skills-list.secondary li {
 		display: block;
 	}
 	ul.sidebar-quote li {
-		padding: 10px;
+		/* padding: 10px; */
 		text-orientation: mixed;
 		writing-mode: tb;
+	}
+	ul.sidebar-quote a {
+		color: #fff;
 	}
 	.featured-thumb img {
 		height: 240px;

@@ -33,10 +33,11 @@ jQuery(".wpcf7-submit").click(function(){
     });
 
     jQuery(".skills-wrap.parent a").on("click" ,function(){
+      console.log('inner.. '+ this.hash);
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
-  
+          console.log("inner... "+hash);
         jQuery('html, body').animate({
           scrollTop: jQuery(hash).offset().top
         }, 800, function(){

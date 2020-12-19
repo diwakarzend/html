@@ -32,12 +32,14 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
-    jQuery(".skills-wrap.parent").click(function(){
+    jQuery(".skills-wrap.parent").each(function(){
+      jQuery(this).click(function(){
       console.log('user...');
       jQuery('html, body').animate({
           scrollTop: jQuery(".secondary").offset().top
       }, 2000);
       return false;
   });
+});
 
 

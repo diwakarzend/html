@@ -500,7 +500,9 @@ ul.skills-list.secondary li {
 		position: fixed;
 		top: 35%;
 		z-index: 1;
-		left: -15px;
+		left: 0x;
+		margin: 0;
+		padding: 0;
 		display: block;
 	}
 	ul.sidebar-quote li {

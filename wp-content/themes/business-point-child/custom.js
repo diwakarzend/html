@@ -34,6 +34,7 @@ jQuery(".wpcf7-submit").click(function(){
 
     jQuery(".tab-click").on("click" ,function(){
       setTimeout(function(){console.log('inner.. '+ this.hash);
+      if (this.hash !== "") {
         var hash = this.hash;
           console.log("inner... "+hash);
         jQuery('html, body').animate({
@@ -41,6 +42,7 @@ jQuery(".wpcf7-submit").click(function(){
         }, 800, function(){
           window.location.hash = hash;
         });
+      } 
     },500);
     });
 

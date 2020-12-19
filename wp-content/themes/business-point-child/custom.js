@@ -33,6 +33,7 @@ jQuery(".wpcf7-submit").click(function(){
     });
 
     jQuery(".skills-wrap.parent").click(function(){
+      console.log('user...');
       jQuery('html, body').animate({
           scrollTop: jQuery(".secondary").offset().top
       }, 2000);

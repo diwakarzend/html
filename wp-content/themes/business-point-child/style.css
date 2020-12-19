@@ -496,17 +496,15 @@ ul.skills-list.secondary li {
 		list-style: none;
 		background: #0073b1;
 		color: #fff!important;
-		float: revert;
 		position: fixed;
 		top: 35%;
 		z-index: 1;
 		left: 0x;
 		margin: 0;
-		padding: 0;
 		display: block;
 	}
 	ul.sidebar-quote li {
-		padding: 10px 4px;
+		padding: 10px;
 		text-orientation: mixed;
 		writing-mode: tb;
 	}

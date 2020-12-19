@@ -32,7 +32,7 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
-    jQuery(".skills-wrap.parent a").on("click" ,function(){
+    jQuery(".tab-click").on("click" ,function(){
       console.log('inner.. '+ this.hash);
       if (this.hash !== "") {
         event.preventDefault();

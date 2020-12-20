@@ -425,6 +425,15 @@ p.skills-title {
 html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
     padding-right: 0!important;
 }
+#pre-loader {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: url('https://createwebsite.net/wp-content/uploads/2015/09/Loader1.gif') 50% 50% no-repeat rgb(249,249,249);
+}
 @media(min-width:767px) {
 .left-wrap {
 	width: 45%;

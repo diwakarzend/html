@@ -35,4 +35,8 @@ jQuery(".wpcf7-submit").click(function(){
     }); 
     });
 
+    jQuery(window).load(function() {
+      jQuery("#pre-loader").fadeOut("slow");
+    });
+
 

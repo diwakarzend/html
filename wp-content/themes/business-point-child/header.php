@@ -31,6 +31,7 @@ wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<div id="pre-loader"></div>
 <ul class="sidebar-quote" aria-hidden="false">
 <li id="msidebar-quote-link" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5616 pum-trigger" style="cursor: pointer;"><a href="#">Get A Free Quote</a></li>
 </ul>

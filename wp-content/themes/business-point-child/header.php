@@ -37,11 +37,7 @@ wp_head(); ?>
 
   gtag('config', 'UA-23664067-1');
 </script>
-<?php
-if ( is_home() ) {
-  echo '<meta name="google-site-verification" content="09jcBmzybIQJW2gTuLPc4ItFp8fSONancR5ViSI9HEM" />';
-}
-?>
+<meta name="google-site-verification" content="09jcBmzybIQJW2gTuLPc4ItFp8fSONancR5ViSI9HEM" />
 </head>
 
 <body <?php body_class(); ?>>

@@ -41,6 +41,7 @@ wp_head(); ?>
 if ( is_home() ) {
   echo '<meta name="google-site-verification" content="09jcBmzybIQJW2gTuLPc4ItFp8fSONancR5ViSI9HEM" />';
 }
+?>
 </head>
 
 <body <?php body_class(); ?>>

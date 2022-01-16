@@ -1,0 +1,22 @@
+server: 
+  port: 8083
+spring:
+  application: 
+    name: user-service
+  data.mongodb.uri: "mongodb://localhost:27017/imoney_user_db?serverSelectionTimeoutMS=2000&connectTimeoutMS=2000"
+  datasource: 
+    url: "jdbc:mysql://localhost:3306/imoney_user?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true"
+    username: root
+    password: root
+  jpa: 
+    database: mysql
+    generate-ddl: false
+    hibernate: 
+      ddl-auto: none
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+jwt:
+ secret: testing
+ 
+spring.main.allow-bean-definition-overriding: true
+spring.main.allow-circular-references: true
